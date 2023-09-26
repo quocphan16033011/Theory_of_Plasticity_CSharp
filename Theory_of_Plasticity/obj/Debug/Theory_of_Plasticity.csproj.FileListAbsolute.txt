@@ -1,0 +1,7 @@
+D:\Quoc\Theory_of_Plasticity\Theory_of_Plasticity\bin\Debug\Theory_of_Plasticity.exe.config
+D:\Quoc\Theory_of_Plasticity\Theory_of_Plasticity\bin\Debug\Theory_of_Plasticity.exe
+D:\Quoc\Theory_of_Plasticity\Theory_of_Plasticity\bin\Debug\Theory_of_Plasticity.pdb
+D:\Quoc\Theory_of_Plasticity\Theory_of_Plasticity\obj\Debug\Theory_of_Plasticity.csproj.AssemblyReference.cache
+D:\Quoc\Theory_of_Plasticity\Theory_of_Plasticity\obj\Debug\Theory_of_Plasticity.csproj.CoreCompileInputs.cache
+D:\Quoc\Theory_of_Plasticity\Theory_of_Plasticity\obj\Debug\Theory_of_Plasticity.exe
+D:\Quoc\Theory_of_Plasticity\Theory_of_Plasticity\obj\Debug\Theory_of_Plasticity.pdb
