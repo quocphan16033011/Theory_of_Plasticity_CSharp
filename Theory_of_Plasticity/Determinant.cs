@@ -8,37 +8,6 @@ namespace Theory_of_Plasticity
 {
     internal class Determinant
     {
-        //        public static double determinantMatrix(double[,] tensor) { 
-        //            double determinant = 0;
-        //            if (tensor.Length == 2)
-        //            {
-        //                return tensor[0, 0] * tensor[1, 1] - tensor[0, 1] * tensor[1, 0];
-        //            }
-        //            for(int j = 0; j < tensor.Length; j++)
-        //{
-        //                // Calculate the cofactor for element A[0][j]
-        //                double[,] submatrix = new double[tensor.GetLength(0) - 1, tensor.GetLength(1) - 1];
-        //                int rowIndex = 0;
-        //                for (int i = 1; i < tensor.GetLength(0); i++)
-        //                {
-        //                    int colIndex = 0;
-        //                    for (int k = 0; k < tensor.GetLength(1); k++)
-        //                    {
-        //                        if (k != j)
-        //                        {
-        //                            submatrix[rowIndex, colIndex] = tensor[i, k];
-        //                            colIndex++;
-        //                        }
-        //                    }
-        //                    rowIndex++;
-        //                }
-        //                double cofactor = Math.Pow(-1, 0 + j) * determinantMatrix(submatrix);  // Recursive call to calculate determinant
-
-        //                // Multiply the element by its cofactor and add to the determinant
-        //                determinant += tensor[0, j] * cofactor;
-        //            }
-        //            return determinant;
-        //        }
         public static double DeterminantMatrix(double[,] matrix)
         {
             int n = matrix.GetLength(0);
