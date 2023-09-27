@@ -24,9 +24,7 @@ namespace Theory_of_Plasticity
             double I1 = tensor[0, 0] + tensor[1, 1] + tensor[2, 2];
             double I2 = (tensor[0, 0] * tensor[1, 1] - tensor[0, 1] * tensor[0, 1]) + (tensor[1, 1] * tensor[2, 2] - tensor[1, 2] * tensor[1, 2]) + (tensor[0, 0] * tensor[2, 2] - tensor[2, 0] * tensor[2, 0]);
             double I3 = det;
-            Console.WriteLine(I1);
-            Console.WriteLine(I2);
-            Console.WriteLine(I3);
+
             double[] mainStress = SolveEquationDegree3.SolveCharacteristicEquation(I1, I2, I3);
             double sigma_1 = 0;
             double sigma_2 = 0;
